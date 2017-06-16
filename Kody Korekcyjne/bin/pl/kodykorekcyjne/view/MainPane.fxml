@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.kodykorekcyjne.controller.MainPaneController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="900.0" layoutX="240.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@background.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="resetButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="92.0" text="Reset" />
+      <Button fx:id="calculateOutputButton" layoutX="730.0" layoutY="502.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="124.0" text="Generuj wynik" />
+      <Label fx:id="outputBit0" layoutX="835.0" layoutY="228.0" prefHeight="31.0" prefWidth="51.0" />
+      <Label fx:id="outputBit1" layoutX="835.0" layoutY="294.0" prefHeight="31.0" prefWidth="51.0" />
+      <Label fx:id="outputBit2" layoutX="835.0" layoutY="347.0" prefHeight="31.0" prefWidth="51.0" />
+      <Label fx:id="outputBit3" layoutX="835.0" layoutY="405.0" prefHeight="31.0" prefWidth="51.0" />
+      <TextField fx:id="inputBit0" layoutX="6.0" layoutY="228.0" prefHeight="31.0" prefWidth="79.0" />
+      <TextField fx:id="inputBit1" layoutX="6.0" layoutY="294.0" prefHeight="31.0" prefWidth="79.0" />
+      <TextField fx:id="inputBit2" layoutX="6.0" layoutY="347.0" prefHeight="31.0" prefWidth="79.0" />
+      <TextField fx:id="inputBit3" layoutX="6.0" layoutY="405.0" prefHeight="31.0" prefWidth="79.0" />
+      <TextField fx:id="error0" layoutX="246.0" layoutY="46.0" prefHeight="31.0" prefWidth="51.0" />
+      <TextField fx:id="error1" layoutX="305.0" layoutY="46.0" prefHeight="31.0" prefWidth="51.0" />
+      <TextField fx:id="error2" layoutX="363.0" layoutY="46.0" prefHeight="31.0" prefWidth="51.0" />
+      <TextField fx:id="error3" layoutX="425.0" layoutY="46.0" prefHeight="31.0" prefWidth="51.0" />
+      <Label fx:id="error0Label" layoutX="249.0" layoutY="14.0" text="Error 0" />
+      <Label fx:id="error1Label" layoutX="308.0" layoutY="14.0" text="Error 1" />
+      <Label fx:id="error2Label" layoutX="366.0" layoutY="14.0" text="Error 2" />
+      <Label fx:id="error3Label" layoutX="428.0" layoutY="14.0" text="Error 3" />
+      <Label fx:id="receiver0" layoutX="648.0" layoutY="233.0" prefHeight="21.0" prefWidth="51.0" />
+      <Label fx:id="receiver1" layoutX="648.0" layoutY="299.0" prefHeight="21.0" prefWidth="51.0" />
+      <Label fx:id="receiver2" layoutX="648.0" layoutY="352.0" prefHeight="21.0" prefWidth="51.0" />
+      <Label fx:id="receiver3" layoutX="648.0" layoutY="410.0" prefHeight="21.0" prefWidth="51.0" />
+      <Label fx:id="input0Label" layoutX="106.0" layoutY="218.0" prefHeight="21.0" prefWidth="79.0" text="Wejście 0" />
+      <Label fx:id="input1Label" layoutX="106.0" layoutY="284.0" prefHeight="21.0" prefWidth="79.0" text="Wejście 1" />
+      <Label fx:id="input2Label" layoutX="106.0" layoutY="342.0" prefHeight="21.0" prefWidth="79.0" text="Wejście 2" />
+      <Label fx:id="input3Label" layoutX="106.0" layoutY="400.0" prefHeight="21.0" prefWidth="79.0" text="Wejście 3" />
+      <Label layoutX="746.0" layoutY="223.0" prefHeight="21.0" prefWidth="69.0" text="Wyjście 0" />
+      <Label layoutX="746.0" layoutY="284.0" prefHeight="21.0" prefWidth="69.0" text="Wyjście 1" />
+      <Label layoutX="746.0" layoutY="342.0" prefHeight="21.0" prefWidth="69.0" text="Wyjście 2" />
+      <Label layoutX="746.0" layoutY="400.0" prefHeight="21.0" prefWidth="69.0" text="Wyjście 3" />
+   </children>
+</AnchorPane>

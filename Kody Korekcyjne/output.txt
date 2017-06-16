@@ -1,0 +1,28 @@
+Raport:
+
+Dane wejœciowe: 0 1 0 1
+B³êdy: brak
+Odbiornik: 000 111 000 111
+Dane wyjœciowe: 0 1 0 1
+
+Raport:
+
+Dane wejœciowe: 0 1 0 1
+B³êdy: 12   
+Odbiornik: 011 111 000 111
+Dane wyjœciowe: 1 1 0 1
+
+Raport:
+
+Dane wejœciowe: 0 1 0 1
+B³êdy: 01   
+Odbiornik: 110 111 000 111
+Dane wyjœciowe: 1 1 0 1
+
+Raport:
+
+Dane wejœciowe: 0 1 0 1
+B³êdy: 12 12  
+Odbiornik: 011 100 000 111
+Dane wyjœciowe: 1 0 0 1
+
